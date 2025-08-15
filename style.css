@@ -1,0 +1,71 @@
+   /* style the body element */
+body {
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+
+/* style the clock container */
+.clock-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border:10px solid gold;
+    padding: 20px 40px;
+    border-radius: 15px;
+    
+               
+}
+
+/* number , am and pm style */
+.clock-container > div {
+    background-color: black;
+    color: red;
+    font-size: 80px; 
+    font-weight: 700;
+    text-align: center;
+    min-width: 100px;
+    padding: 15px;
+}
+
+/* style the colon(:) */
+ .clock-container .colon {
+    background-color: black;
+    color:red;
+    font-size: 80px; 
+    line-height:2rem;
+} 
+
+/* for mobile */
+@media (max-width: 600px) {
+    .clock-container > div {
+        font-size: 40px;
+        padding: 5px;
+        min-width: 50px;
+    }
+    .clock-container .colon {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+
+/* for tablet only */
+@media (min-width: 601px) and (max-width: 1023px) {
+    .clock-container > div {
+        font-size: 60px;
+        padding: 10px;
+        flex-wrap:wrap;
+    }
+}
+
+/* for desktop */
+@media (min-width: 1024px) {
+    .clock-container > div {
+        font-size: 80px;
+        padding: 15px;
+    }
+}
