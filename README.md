@@ -1,54 +1,42 @@
-<!--markdown-->
-# ⏰ Digital Clock
+# 🧮 Simple Calculator  
+   A Simple Calculator built using HTML, CSS and JavaScript.  
+   This project is fully responsive and works on Mobile 📱, Tablet 📲, and Desktop 💻 devices.  
+ ---  
+ # 📌 Features  
+- ➕ Add, ➖ Subtract, ✖ Multiply, ➗ Divide, and %     operations
 
-A stylish and responsive **Digital Clock** built using **HTML**, **CSS**, and **JavaScript**.  
-This project displays the current time in **12-hour formate** with AM/PM indication and updates every second.  
+- 🧹 Clear (C) and Delete (DEL) buttons
+
+- ✅ Result (=) button for evaluation
+
+- 🎨 Modern UI with gradient background and neumorphic buttons
+
+- 📱 Responsive design (mobile, tablet, desktop)  
 ---  
-# 📌 Features  
-- 🕒 Real-time clock update (every second)  
-- 🌓 12-hour formate with AM/PM  
-- 🎨 Stylish and clean UI design  
-- 📱 Mobile, tablet and desktop responsive  
-- 🌈 Customizable colors and fonts via css  
+
+## 📝 Technologies Used
+
+- HTML5 → Structure
+
+- CSS3 → Styling & Responsive Layout
+
+- JavaScript (Vanilla JS) → Calculator Logic  
 ---  
-
-## 🛠️ Technologies Used  
-- **HTML** → Clock structure  
-- **CSS**  →  Styling, layout and responsiveness  
-- **JavaScript(ES6)** → Time logic and DOM updates  
----  
-## 🚀 Live Demo  
-[🔗 Click here to view the clock](https://siddik-rahman.github.io/digital-clock/)  
----  
-## 📂 Project Structure  
-
-## 📂 Project Structure
-digital-clock/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-└── screenshot.png
-
-
-
-
-
-## ⚙ How to Use  
-```bash
- 1. git clone https://github.com/siddik-rahman/digital-clock.git  
+## ⚙ How to Use 
+```
+ 1. git clone https://github.com/siddik-rahman/simple-calculator.git  
  2. Open `index.html` in your browser.  
- 3. Enjoy your real-time digital clock!
+ ```  
+ ## 🚀 Live Demo  
+[🔗 Click here to view the calculator](https://siddik-rahman.github.io/simple-calculator/)  
+---  
 
- ```   
-   
- 🧑‍💻 Author  
-     Siddikur Rahman  
-📧 Email: siddik8976@gmail.com  
+## 🧑‍💻 Author  
+      Siddikur Rahman  
+## 📧 Email: siddik8976@gmail.com  
 
-🌐 GitHub: siddik-rahman  
+## 🌐 GitHub: siddik-rahman  
 
-📜 License  
+## 📜 License  
     This project is free to use and modify.
-
 

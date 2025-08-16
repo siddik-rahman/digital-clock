@@ -1,25 +1,27 @@
+ // Select input field
+const result = document.getElementById("inputext");
 
-
-setInterval(() => {
-    let now = new Date(); 
-    let h = now.getHours();
-    let m = now.getMinutes();
-    let s = now.getSeconds();
-
-    let ampm = "AM";
-    if (h >= 12) {
-        ampm = "PM";
-        h = h % 12 || 12; 
-    }
-
+  // To place numbers or operators on the display
+ const  calculate =(number)=> {
+ result.value += number;
     
-    h = h < 10 ? "0" + h : h;
-    m = m < 10 ? "0" + m : m;
-    s = s < 10 ? "0" + s : s;
+ }
 
-    
-    document.getElementById("hour").innerText = h;
-    document.getElementById("minute").innerText = m;
-    document.getElementById("second").innerText = s;
-    document.getElementById("ampm").innerText = ampm;
-}, 1000);
+   //  To find a solution
+ const Result =()=> {
+   try {
+    result.value = eval( result.value);
+   } catch(err) {
+    alert(" ⚠️ Enter a valid  input ");
+   }
+ }
+
+  //  To clear everything
+ const clr = () => {
+    result.value = "";
+ }
+
+  //  To delete the last character
+ const  del=()=> {
+     result.value = result.value.slice(0,-1);
+ }
